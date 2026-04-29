@@ -1,0 +1,17 @@
+# OS/editor
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets/local outputs
+.env
+.env.*
+*.wav
+*.mp3
+*.flac
