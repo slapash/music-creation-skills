@@ -12,14 +12,16 @@ Reusable skills for local/procedural music creation.
 Install the Strudel skill:
 
 ```bash
-npx skills add https://github.com/slapash/music-creation-skills --skill strudel-music
+npx skills add https://github.com/slapash/music-creation-skills --skill strudel-music --yes --global
 ```
 
 Install the local rendering skill:
 
 ```bash
-npx skills add https://github.com/slapash/music-creation-skills --skill local-music-generation
+npx skills add https://github.com/slapash/music-creation-skills --skill local-music-generation --yes --global
 ```
+
+Omit `--yes --global` if you want to choose target agents interactively.
 
 ## Notes
 
